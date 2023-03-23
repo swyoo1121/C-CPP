@@ -1,0 +1,31 @@
+src폴더에 대부분 작성
+npm install로 module 추가 설치가능
+
+
+package.json에 npm run start라는 명령어가 명시되어 있음
+App.js 파일 수정을 통해 텍스트 변경가능
+build : build 폴더 생성 -> 개발환경이 아닌 운영환경(배포용)을 만드는 것
+test : 리액트 앱을 테스트하기 위한 명령어 (App.test.js)
+
+
+single page application : 웹페이지 하나(html 템플릿 하나)로 개발
+기존의 multi page application 방식은 a.html에서 b.html을 보여주면 되지만 SPA는 HTML 5의 History API를 사용!(react-router-dom)(사진)
+리액트는 SPA를 지향한다
+
+
+JSX(Javascript Syntax Extension) -> javascript와 html을 동시에 사용가능
+createElement를 Babel을 통해 생성
+컴포넌트 안에 여러 엘리먼트 요소가 있다면 부모 요소로 감싸줘야함!(사진)
+
+
+함수형 컴포넌트에는 바로 return
+클래스형 컴포넌트에는 render()를 사용해야 함
+
+
+구현과정만 있는데 추가예정
+하드코딩(일일이 추가)보단 map 메소드 사용
+key 속성은 python의 딕셔너리처럼 key-value 관계
+filter 역시 함수 비슷함
+react state를 통해 re-rendering(가시적으로 변하게 됨)
+전개연산자... : 원본 객체 보존 가능
+조건부 삼항 연산자 if statement ? true : false

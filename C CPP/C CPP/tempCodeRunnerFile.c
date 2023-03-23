@@ -1,0 +1,1 @@
+ && poppedNode.exeTime == 0
