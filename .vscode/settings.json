@@ -8,6 +8,14 @@
         "utility": "cpp",
         "ios": "cpp",
         "xiosbase": "cpp",
-        "xstddef": "cpp"
+        "xstddef": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "set": "cpp",
+        "algorithm": "cpp"
     }
 }
