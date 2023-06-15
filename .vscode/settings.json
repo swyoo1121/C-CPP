@@ -16,6 +16,7 @@
         "xtree": "cpp",
         "xutility": "cpp",
         "set": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "unordered_map": "cpp"
     }
 }
