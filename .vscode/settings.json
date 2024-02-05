@@ -17,6 +17,7 @@
         "xutility": "cpp",
         "set": "cpp",
         "algorithm": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "stack": "cpp"
     }
 }
