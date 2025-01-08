@@ -1,57 +1,31 @@
 {
-    "version": "2.0.0",
     "configurations": [
         {
-            "name": "C/C++: gcc.exe 활성 파일 빌드 및 디버그",
+            "name": "C/C++: g++.exe build and debug active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "C:/msys64/mingw64/bin",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
             "setupCommands": [
                 {
-                    "description": "gdb에 자동 서식 지정 사용",
+                    "description": "Enable pretty-printing for gdb",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 },
                 {
-                    "description": "디스어셈블리 버전을 Intel(으)로 설정",
+                    "description": "Set Disassembly Flavor to Intel",
                     "text": "-gdb-set disassembly-flavor intel",
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: gcc.exe 활성 파일 빌드 ver(3)"
-        },
-        {
-            "name": "C/C++: g++.exe 활성 파일 빌드 및 디버그",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
-            "setupCommands": [
-                {
-                    "description": "gdb에 자동 서식 지정 사용",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "디스어셈블리 버전을 Intel(으)로 설정",
-                    "text": "-gdb-set disassembly-flavor intel",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "C/C++: g++.exe 활성 파일 빌드"
+            "preLaunchTask": "C/C++: g++.exe build active file"
         }
     ],
+    "version": "2.0.0"
 }
